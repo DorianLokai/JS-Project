@@ -21,9 +21,9 @@ $(document).ready(function(){
 			if(status){
 				$('.hide-button').on('click', function(){
 
-		$(this).parent().parent().hide();
+					$(this).parent().parent().hide();
 
-	});
+				});
 			}
 
 		});
@@ -31,3 +31,8 @@ $(document).ready(function(){
 
 
 });
+
+/*to check some thing using console log
+use the line: console.log('button clicked!'); then look in your console log to see if it works.
+you can also use the console log to see if the variables are set, or information is assigned to the
+right variable*/
